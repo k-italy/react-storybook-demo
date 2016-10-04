@@ -21,6 +21,7 @@
   },
   "homepage": "http://redux.js.org",
   "dependencies": {
+    "@kadira/storybook-addon-notes": "^1.0.1",
     "babel-polyfill": "^6.3.14",
     "classnames": "^2.1.2",
     "react": "^15.0.1",
@@ -30,6 +31,7 @@
     "stack-source-map": "^1.0.4"
   },
   "devDependencies": {
+    "@kadira/react-storybook-addon-info": "^3.2.1",
     "@kadira/storybook": "^2.17.0",
     "@kadira/storybook-deployer": "^1.0.0",
     "@kadira/storyshots": "^1.1.3",
