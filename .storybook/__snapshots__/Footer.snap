@@ -1,0 +1,185 @@
+exports[`default view`] = `
+<div
+  className="todoapp">
+  <footer
+    className="footer">
+    <span
+      className="todo-count">
+      <strong>
+        4
+      </strong>
+       
+      items
+       left
+    </span>
+    <ul
+      className="filters">
+      <li>
+        <a
+          className="selected"
+          onClick={[Function onClick]}
+          style={
+            Object {
+              "cursor": "pointer"
+            }
+          }>
+          All
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          onClick={[Function onClick]}
+          style={
+            Object {
+              "cursor": "pointer"
+            }
+          }>
+          Active
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          onClick={[Function onClick]}
+          style={
+            Object {
+              "cursor": "pointer"
+            }
+          }>
+          Completed
+        </a>
+      </li>
+    </ul>
+    <button
+      className="clear-completed"
+      onClick={[Function anonymous]}>
+      Clear completed
+    </button>
+  </footer>
+</div>
+`;
+
+exports[`show active`] = `
+<div
+  className="todoapp">
+  <footer
+    className="footer">
+    <span
+      className="todo-count">
+      <strong>
+        4
+      </strong>
+       
+      items
+       left
+    </span>
+    <ul
+      className="filters">
+      <li>
+        <a
+          className=""
+          onClick={[Function onClick]}
+          style={
+            Object {
+              "cursor": "pointer"
+            }
+          }>
+          All
+        </a>
+      </li>
+      <li>
+        <a
+          className="selected"
+          onClick={[Function onClick]}
+          style={
+            Object {
+              "cursor": "pointer"
+            }
+          }>
+          Active
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          onClick={[Function onClick]}
+          style={
+            Object {
+              "cursor": "pointer"
+            }
+          }>
+          Completed
+        </a>
+      </li>
+    </ul>
+    <button
+      className="clear-completed"
+      onClick={[Function anonymous]}>
+      Clear completed
+    </button>
+  </footer>
+</div>
+`;
+
+exports[`show completed`] = `
+<div
+  className="todoapp">
+  <footer
+    className="footer">
+    <span
+      className="todo-count">
+      <strong>
+        4
+      </strong>
+       
+      items
+       left
+    </span>
+    <ul
+      className="filters">
+      <li>
+        <a
+          className=""
+          onClick={[Function onClick]}
+          style={
+            Object {
+              "cursor": "pointer"
+            }
+          }>
+          All
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          onClick={[Function onClick]}
+          style={
+            Object {
+              "cursor": "pointer"
+            }
+          }>
+          Active
+        </a>
+      </li>
+      <li>
+        <a
+          className="selected"
+          onClick={[Function onClick]}
+          style={
+            Object {
+              "cursor": "pointer"
+            }
+          }>
+          Completed
+        </a>
+      </li>
+    </ul>
+    <button
+      className="clear-completed"
+      onClick={[Function anonymous]}>
+      Clear completed
+    </button>
+  </footer>
+</div>
+`;
