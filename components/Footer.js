@@ -15,7 +15,7 @@ class Footer extends Component {
 
     return (
       <span className="todo-count">
-        <strong>{activeCount || 'No'}</strong> {itemWord} left
+        <span>{activeCount || 'No'}</span> {itemWord} left
       </span>
     )
   }
