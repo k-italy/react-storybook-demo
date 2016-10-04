@@ -1,6 +1,6 @@
 import React from 'react';
 import TodoItem from '../TodoItem';
-import { storiesOf, action } from '@kadira/storybook';
+import { storiesOf, action, linkTo } from '@kadira/storybook';
 
 storiesOf('TodoItem', module)
   .add('not completed', () => {
@@ -10,7 +10,7 @@ storiesOf('TodoItem', module)
       completed: false
     };
 
-    return getItem(todo);
+    return getItem(todo, 'completed');
   })
   .add('completed', () => {
     const todo = {
@@ -19,11 +19,11 @@ storiesOf('TodoItem', module)
       completed: true
     };
 
-    return getItem(todo);
+    return getItem(todo, 'not completed');
   });
 
 
-function getItem(todo) {
+function getItem(todo, linkOnClick) {
   return (
     <div className="todoapp">
       <div className="todo-list">
@@ -31,7 +31,7 @@ function getItem(todo) {
           todo={todo}
           editTodo={action('editTodo')}
           deleteTodo={action('deleteTodo')}
-          completeTodo={action('completeTodo')}/>
+          completeTodo={linkTo('TodoItem', linkOnClick)}/>
       </div>
     </div>
   );
