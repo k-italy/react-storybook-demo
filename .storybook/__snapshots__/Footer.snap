@@ -5,9 +5,9 @@ exports[`default view`] = `
     className="footer">
     <span
       className="todo-count">
-      <strong>
+      <span>
         4
-      </strong>
+      </span>
        
       items
        left
@@ -67,9 +67,9 @@ exports[`show active`] = `
     className="footer">
     <span
       className="todo-count">
-      <strong>
+      <span>
         4
-      </strong>
+      </span>
        
       items
        left
@@ -129,9 +129,9 @@ exports[`show completed`] = `
     className="footer">
     <span
       className="todo-count">
-      <strong>
+      <span>
         4
-      </strong>
+      </span>
        
       items
        left

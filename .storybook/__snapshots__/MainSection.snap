@@ -51,9 +51,9 @@ exports[`all active`] = `
       className="footer">
       <span
         className="todo-count">
-        <strong>
+        <span>
           2
-        </strong>
+        </span>
          
         items
          left
@@ -155,9 +155,9 @@ exports[`all completed`] = `
       className="footer">
       <span
         className="todo-count">
-        <strong>
+        <span>
           No
-        </strong>
+        </span>
          
         items
          left
@@ -264,9 +264,9 @@ exports[`some completed`] = `
       className="footer">
       <span
         className="todo-count">
-        <strong>
+        <span>
           1
-        </strong>
+        </span>
          
         item
          left
