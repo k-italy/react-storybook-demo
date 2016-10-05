@@ -1,0 +1,23 @@
+exports[`with empty list`] = `
+<ul>
+  <li
+    style={
+      Object {
+        "color": "red"
+      }
+    }>
+    (No Users!)
+  </li>
+</ul>
+`;
+
+exports[`with non-empty list`] = `
+<ul>
+  <li>
+    Taro
+  </li>
+  <li>
+    Jiro
+  </li>
+</ul>
+`;
