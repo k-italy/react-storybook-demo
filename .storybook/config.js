@@ -28,6 +28,7 @@ setAddon({
 });
 
 function loadStories() {
+  require('../components/stories/');
   require('../containers/stories/');
 }
 
