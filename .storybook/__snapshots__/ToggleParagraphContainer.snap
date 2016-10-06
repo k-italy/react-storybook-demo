@@ -1,0 +1,16 @@
+exports[`normal`] = `
+<div>
+  <button
+    onClick={[Function onClick]}
+    style={
+      Object {
+        "border": "solid"
+      }
+    }>
+    Open
+  </button>
+  <p>
+    Storybook 最高！
+  </p>
+</div>
+`;
